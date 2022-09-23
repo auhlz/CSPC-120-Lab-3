@@ -5,7 +5,7 @@
 // @auhlz
 //
 // Lab 03-02
-// Partner: @baraadamer
+// Partners: @baraadamer
 //
 // Convert milliliters to units of the US customary system.
 //
