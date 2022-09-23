@@ -28,6 +28,6 @@ int main(int argc, char const *argv[]) {
 
   std::cout << "A " << protein << " sandwich on " << bread << " with "
 
-            << condiment << "";
+            << condiment << "" << std::endl;
   return 0;
 }
