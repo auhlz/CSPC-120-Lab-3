@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]) {
   cups = ounces / 8;
 
   std::cout << milliliters << "ml = " << teaspoons << "tsp= " << tablespoons
-            << "tbs = " << ounces << "oz = " << cups << "cups = ";
+            << "tbs = " << ounces << "oz = " << cups << "cups" << std::endl;
 
   return 0;
 }
