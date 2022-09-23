@@ -1,10 +1,11 @@
-// Tuffy Titan
-// CPSC 120-01
-// 2050-01-31
-// tuffy.titan@csu.fullerton.edu
-// @tuffytitan
+// Alex Labitigan
+// CPSC 120-12
+// 2022-09-22
+// alexlabitigan@csu.fullerton.edu
+// @auhlz
 //
 // Lab 03-03
+// Partner: @baraadamer
 //
 // Play a hi/lo guessing game.
 //
