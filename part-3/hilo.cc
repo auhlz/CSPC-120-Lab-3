@@ -5,7 +5,7 @@
 // @auhlz
 //
 // Lab 03-03
-// Partner: @baraadamer
+// Partners: @baraadamer
 //
 // Play a hi/lo guessing game.
 //
