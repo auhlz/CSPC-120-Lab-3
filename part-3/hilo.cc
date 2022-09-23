@@ -11,11 +11,34 @@
 //
 
 #include <iostream>
-
 int main(int argc, char const *argv[]) {
+  int secret_number;
+  std::cout << "Player 1, enter the secret number: ";
+  std::cin >> secret_number;
+  int guess1;
+  std::cout << "Player 2, enter your first guess: ";
+  std::cin >> guess1;
 
-  // TODO: Add statements that implement the guessing game described in the
-  // README. Then delete this comment.
-
+  if (guess1 > secret_number) {
+    std::cout << "Too high";
+  } else if (guess1 < secret_number) {
+    std::cout << "Too low\n";
+  }  else if (guess1 == secret_number) {
+    std::cout << "Correct, you win!\n";
+    return 0;
+  }
+  
+  int guess2;
+  std::cout << "Player 2, enter your second guess: ";
+  std::cin >> guess2;
+  if (guess2 > secret_number) {
+    std::cout << "Too high" << std::endl;
+  } else if (guess2 < secret_number) {
+    std::cout << "Too low\n";
+  }  else if (guess2 == secret_number) {
+    std::cout << "Correct, you win!";
+    return 0;
+  }
+std::cout << "You Lose!\n";
   return 0;
 }
