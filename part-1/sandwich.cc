@@ -5,7 +5,7 @@
 // @auhlz
 //
 // Lab 03-01
-// Partner: @baraadamer
+// Partners: @baraadamer
 //
 // Print out a description of a sandwich.
 //
